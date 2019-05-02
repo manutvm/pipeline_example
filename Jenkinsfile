@@ -3,6 +3,6 @@ node {
 		checkout scm
     }
 	stage('build'){
-		echo 'Test message'
+		sh 'mvn clean install'
 	} 
 }
