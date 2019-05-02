@@ -1,5 +1,8 @@
 node {
-  stage('build'){
+	stage('checkout'){
+		checkout scm
+    }
+	stage('build'){
 		echo 'Test message'
 	} 
 }
