@@ -1,5 +1,9 @@
-node{
-  stage('checkout'){
-    echo "Checkout"
-  }
+@Library('pipeline-library-demo')_
+
+stage('Demo') {
+
+  echo 'Hello World'
+
+  sayHello 'Manoj'
+
 }
