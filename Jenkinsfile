@@ -1,7 +1,5 @@
 node{
-  stages{
-    stage('checkout'){
-      echo "Checkout"
-    }
+  stage('checkout'){
+    echo "Checkout"
   }
 }
